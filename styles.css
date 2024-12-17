@@ -5,10 +5,10 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
-    align-items: flex-start; /* Alinhamento do conteúdo no topo */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
     flex-direction: column; /* Organiza o layout em coluna */
-    min-height: 100vh; /* Garante que a altura mínima seja a altura total da tela */
+    height: 100vh; /* Ocupa toda a altura da tela */
 }
 
 .container {
@@ -45,28 +45,23 @@ button {
 }
 
 button:hover {
-            background-color: #1EBE5D; /* Slightly darker green */
+    background-color: #1EBE5D; /* Slightly darker green */
 }
 
 footer {
-            margin-top: 20px;
-            font-size: 0.3em;
-            color: #555; /* Subtle gray */
-            text-align: center;
-            margin-top: auto; /* Garante que o footer fique no final */
-        }
+    font-size: 0.3em;
+    color: #555; /* Subtle gray */
+    text-align: center;
+    width: 100%; /* Garante que o footer ocupe toda a largura */
+    position: absolute;
+    bottom: 20px; /* Posiciona o footer no final da tela */
+}
 
 footer a {
-            text-decoration: none;
-            color: #128C7E; /* WhatsApp teal */
-        }
-
-footer a: hover {
-            text-decoration: underline;
-        }
-
-.link {
-    margin-top: 10px;
-    color: #128C7E; /* WhatsApp teal */
     text-decoration: none;
+    color: #128C7E; /* WhatsApp teal */
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
