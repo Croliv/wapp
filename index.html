@@ -10,7 +10,7 @@
     <div class="container">
         <h1>Mensagem no Whatsapp</h1>
         <form id="whatsappForm" onsubmit="redirectToWhatsApp(event)">
-            <input type="text" id="phoneNumber" placeholder="Digite o número incluindo o DDD" inputmode="numeric" oninput="this.value = this.value.replace(/[^0-9]/g, '')" required>
+            <input type="text" id="phoneNumber" placeholder="Digite o número incluindo o DDD" inputmode="numeric" oninput="this.value = this.value.replace(/[^0-9]/g, '')" autocomplete="off" required>
             <textarea id="message" rows="4" placeholder="Sua mensagem"></textarea>
             <button type="submit">Enviar</button>
         </form>
