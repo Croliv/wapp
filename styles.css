@@ -53,7 +53,6 @@ footer {
     color: #555; /* Subtle gray */
     text-align: center;
     width: 100%; /* Garante que o footer ocupe toda a largura */
-    position: absolute;
     bottom: 20px; /* Posiciona o footer no final da tela */
 }
 
