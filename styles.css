@@ -16,13 +16,18 @@ body {
     background: #FFFFFF; /* White background for form */
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)), url('background.jpg');
     padding: 50px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Efeito de sombra mais forte */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), inset 0 4px 6px rgba(0, 0, 0, 0.1); /* Efeito de relevo */
     width: 320px; /* Aumenta a largura */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     border-top-left-radius: 75px;
     border-bottom-right-radius: 75px;
+    transition: box-shadow 0.3s ease-in-out; /* Transição suave para o efeito */
+}
+
+.container:hover {
+    box-shadow: 0 12px 24px rgba(1, 116, 20, 0.521), inset 0 6px 10px rgba(0, 0, 0, 0.15); /* Efeito 3D ao passar o mouse */
 }
 
 .container h1 {
