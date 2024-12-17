@@ -15,12 +15,13 @@ body {
 .container {
     background: #FFFFFF; /* White background for form */
     padding: 50px;
-    border-radius: 50px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Efeito de sombra mais forte */
     width: 320px; /* Aumenta a largura */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border-top-left-radius: 75px;
+    border-bottom-right-radius: 75px;
 }
 
 .container h1 {
@@ -28,6 +29,9 @@ body {
     margin-bottom: 40px; /* Aumenta a distância do título */
 }
 
+input::placeholder, textarea::placeholder {
+    color: rgba(7, 94, 84, 0.3); /* Texto do placeholder mais transparente */
+}
 input[type="text"], textarea {
     width: 100%;
     padding: 15px 0; /* Mais espaçamento interno */
