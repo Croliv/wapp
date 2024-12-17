@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ECE5DD; /* WhatsApp background color */
+    color: #075E54; /* WhatsApp dark green */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #FFFFFF; /* White background for form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 0;
+    border: 1px solid #075E54;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button {
+    background-color: #25D366; /* WhatsApp green */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #1EBE5D; /* Slightly darker green */
+}
+
+.link {
+    margin-top: 10px;
+    color: #128C7E; /* WhatsApp teal */
+    text-decoration: none;
+}
