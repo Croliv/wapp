@@ -44,12 +44,6 @@ button {
     font-size: 1em;
 }
 
-.link {
-    margin-top: 10px;
-    color: #128C7E; /* WhatsApp teal */
-    text-decoration: none;
-}
-
 button:hover {
             background-color: #1EBE5D; /* Slightly darker green */
 }
@@ -59,6 +53,7 @@ footer {
             font-size: 0.3em;
             color: #555; /* Subtle gray */
             text-align: center;
+            margin-top: auto; /* Garante que o footer fique no final */
         }
 
 footer a {
@@ -69,3 +64,9 @@ footer a {
 footer a: hover {
             text-decoration: underline;
         }
+
+.link {
+    margin-top: 10px;
+    color: #128C7E; /* WhatsApp teal */
+    text-decoration: none;
+}
