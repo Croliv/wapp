@@ -12,4 +12,5 @@ function redirectToWhatsApp(event) {
     const whatsappLink = `https://wa.me/+55${phoneInput}?text=${encodedMessage}`;
 
     window.open(whatsappLink, '_blank');
+    document.getElementById('whatsappForm').reset();
 }
