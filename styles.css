@@ -44,7 +44,8 @@ button {
 }
 
 button:hover {
-    background-color: #1EBE5D; /* Slightly darker green */
+            background-color: #1EBE5D; /* Slightly darker green */
+            text-align: center;
 }
 
 footer {
@@ -57,10 +58,12 @@ footer {
 footer a {
             text-decoration: none;
             color: #128C7E; /* WhatsApp teal */
+            text-align: center;
         }
 
-footer a:hover {
+footer a: hover {
             text-decoration: underline;
+            text-align: center;
         }
 
 .link {
