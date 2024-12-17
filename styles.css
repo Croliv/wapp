@@ -9,39 +9,45 @@ body {
     align-items: center; /* Centraliza o conteúdo verticalmente */
     flex-direction: column; /* Organiza o layout em coluna */
     height: 100vh; /* Ocupa toda a altura da tela */
+    text-align: center; /* Centraliza o texto no body */
 }
 
 .container {
     background: #FFFFFF; /* White background for form */
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: 300px;
-    text-align: center;
+    padding: 50px;
+    border-radius: 50px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Efeito de sombra mais forte */
+    width: 320px; /* Aumenta a largura */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .container h1 {
-    font-size: 1.5em;
-    margin-bottom: 20px;
+    font-size: 1.5em; /* Título maior */
+    margin-bottom: 40px; /* Aumenta a distância do título */
 }
 
 input[type="text"], textarea {
     width: 100%;
-    padding: 10px 0;
-    margin: 10px 0;
+    padding: 15px 0; /* Mais espaçamento interno */
+    margin: 15px 0; /* Mais espaçamento entre os campos */
     border: 1px solid #075E54;
     border-radius: 5px;
     text-align: center;
+    font-size: 1.1em; /* Aumenta o tamanho da fonte nos campos */
 }
 
 button {
     background-color: #25D366; /* WhatsApp green */
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 15px 0; /* Aumenta a altura do botão */
     cursor: pointer;
-    border-radius: 5px;
-    font-size: 1em;
+    border-radius: 50px;
+    font-size: 1.2em; /* Aumenta o tamanho da fonte */
+    width: 50%; /* O botão ocupa toda a largura */
+    margin-top: 20px; /* Espaço entre o botão e os campos */
 }
 
 button:hover {
@@ -49,11 +55,10 @@ button:hover {
 }
 
 footer {
-    font-size: 0.3em;
+    font-size: 0.7em;
     color: #555; /* Subtle gray */
     text-align: center;
-    width: 100%; /* Garante que o footer ocupe toda a largura */
-    bottom: 20px; /* Posiciona o footer no final da tela */
+    margin-top: 40px; /* Aumenta a margem superior para o footer */
 }
 
 footer a {
